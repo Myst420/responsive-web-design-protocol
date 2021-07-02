@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before and after</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+     
+        body {
+
+            background-image: url(https://source.unsplash.com/1980x1080/?galaxy);
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            width: 100vw;
+            margin: 0 auto;
+            display: block;
+        }
+        
+        .nav-div {
+            background-color: rgb(0, 0, 0);
+            opacity: 0.6;
+        }
+
+        .unlisted {
+       
+            display: flex;
+            justify-content: center;
+   
+            list-style: none;
+        }
+    
+        .unlisted li {
+            margin: 0 5px;
+            border-bottom: 2px solid rgb(0, 0, 0); 
+      
+          
+            
+            padding: 10px 12px;
+        }
+
+        section {
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        /* .unlisted li{
+            opacity: 1 !important; 
+        } */
+        section p {
+        
+       line-height: 25px;
+    }
+
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        section h3 {
+            font-size: 4em;
+        }
+
+        .btn {
+            text-align: center;
+            border-radius: 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #111;
+            padding: 10px 70px;
+            width: 200px;
+            margin: 20px 40px;
+            display: inline-block;
+        }
+
+        .btn-box {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+        .item {
+            opacity: 1;
+        }
+        #nav-text {
+            opacity: 1;
+        }
+        .unlisted li:hover {
+            border-bottom: 2px solid red;
+            transition-duration: 700ms;
+        }
+
+        @media (max-width: 1200px) {
+            .container {
+                width: 800px;
+
+            }
+        }
+
+        @media (max-width: 1000px) {
+            .container {
+                width: 700px;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .container {
+                width: 500px;
+            }
+
+            .btn {
+                width: 150px;
+            }
+
+        }
+
+        @media (max-width: 500px) {
+            .container {
+                width: 300px;
+            }
+
+            .btn {
+                padding:10px 40px;
+                width: 70px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav-div">
+            <nav class="navbar">
+                <ul id="nav-text"   class="unlisted">
+                    <li class="item">Home</li>
+                    <li class="item">About</li>
+                    <li class="item">Services</li>
+                    <li class="item">Contact</li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container">
+            <section>
+                <h3>Hey! I am MYST</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente vitae perferendis aspernatur,
+                    sequi unde, beatae reiciendis quidem rerum aliquid libero quisquam officiis eius, iure ratione quod
+                    consequatur pariatur voluptate expedita sed modi inventore aliquam voluptatibus nesciunt! Cum
+                    nostrum, quaerat voluptatum mollitia delectus, hic magni deleniti asperiores perferendis natus
+                    ipsum, dicta deserunt minus pariatur odit nisi.</p>
+            </section>
+            <div class="btn-box">
+                <a href="#" class="btn" id="btn1"><i class="fab fa-facebook-square"></i> facebook</a>
+                <a href="#" class="btn" id="btn2"><i class="fab fa-twitter"></i> twitter</a>
+            </div>
+
+        </div>
+
+    </header>
+</body>
+
+</html>
